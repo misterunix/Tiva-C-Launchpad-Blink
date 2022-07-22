@@ -1,4 +1,5 @@
 #include <Arduino.h>
+#include <Adafruit_NeoPixel.h>
 
 int incomingByte = 0; // for incoming serial data
 volatile byte state = LOW;
